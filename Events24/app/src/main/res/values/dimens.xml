@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_main">30dp</dimen>
+    <dimen name="margin_rv_item">16dp</dimen>
+    <dimen name="text_size_biggest">36sp</dimen>
+    <dimen name="text_size_normal">22sp</dimen>
+    <dimen name="text_size_for_profile">26sp</dimen>
+    <dimen name="text_size_for_profile_small">16sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="card_view_corner">20dp</dimen>
+    <dimen name="rv_item_big_height">200dp</dimen>
+    <dimen name="rv_item_big_width">300dp</dimen>
+    <dimen name="rv_item_small_height">200dp</dimen>
+    <dimen name="rv_item_small_width">170dp</dimen>
+    <dimen name="margin_for_events">18dp</dimen>
+    <dimen name="card_view_corner_search">10dp</dimen>
+    <dimen name="margin_for_profile">20dp</dimen>
+</resources>

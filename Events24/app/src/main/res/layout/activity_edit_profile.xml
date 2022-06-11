@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pavlovic.cubes.events24.ui.activity.EditProfileActivity"
+    android:orientation="vertical"
+    android:background="@color/purple_dark">
+
+    <ScrollView android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/margin_main"
+            android:layout_marginRight="@dimen/margin_main"
+            android:layout_marginTop="@dimen/margin_main">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfile"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_gravity="center_horizontal"/>
+
+            <com.pavlovic.cubes.events24.ui.view.EventsEditText
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:hint="@string/text_name"
+                android:inputType="text"/>
+
+            <com.pavlovic.cubes.events24.ui.view.EventsEditText
+                android:id="@+id/editTextSurname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:hint="@string/edit_text_surname"
+                android:inputType="text"/>
+
+            <com.pavlovic.cubes.events24.ui.view.EventsEditText
+                android:id="@+id/editTextCity"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:hint="@string/edit_text_address"
+                android:inputType="text"/>
+
+            <com.pavlovic.cubes.events24.ui.view.EventsEditText
+                android:id="@+id/editTextAddress"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:hint="@string/edit_text_city"
+                android:inputType="text"/>
+
+            <com.pavlovic.cubes.events24.ui.view.EventsEditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:hint="@string/edit_text_phone"
+                android:inputType="text"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button android:id="@+id/buttonSave"
+        android:layout_margin="@dimen/margin_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_stroke_background"
+        android:text="@string/button_save"
+        android:textColor="@color/white"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

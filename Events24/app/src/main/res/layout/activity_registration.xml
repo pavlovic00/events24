@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pavlovic.cubes.events24.ui.activity.registration.LoginActivity"
+    android:background="@color/purple">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="top"
+        android:src="@drawable/login_background"
+        android:scaleType="centerCrop"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:id="@+id/textViewLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_main"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:text="@string/button_registration"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_biggest"
+            app:layout_constraintBottom_toTopOf="@+id/editTextMail"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.pavlovic.cubes.events24.ui.view.EventsEditText
+            android:id="@+id/editTextMail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/margin_main"
+            android:layout_marginRight="@dimen/margin_main"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:hint="@string/text_email"
+            android:inputType="text|textEmailAddress"/>
+
+        <com.pavlovic.cubes.events24.ui.view.EventsEditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/margin_main"
+            android:layout_marginRight="@dimen/margin_main"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextSurname"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:hint="@string/text_name"
+            android:inputType="text"/>
+
+        <com.pavlovic.cubes.events24.ui.view.EventsEditText
+            android:id="@+id/editTextSurname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/margin_main"
+            android:layout_marginRight="@dimen/margin_main"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:hint="@string/text_surname"
+            android:inputType="text"/>
+
+        <com.pavlovic.cubes.events24.ui.view.EventsEditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/margin_main"
+            android:layout_marginRight="@dimen/margin_main"
+            app:layout_constraintBottom_toTopOf="@+id/editTextRepeatPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:hint="@string/text_password"
+            android:inputType="textPassword"/>
+        <com.pavlovic.cubes.events24.ui.view.EventsEditText
+            android:id="@+id/editTextRepeatPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/margin_main"
+            android:layout_marginRight="@dimen/margin_main"
+            app:layout_constraintBottom_toTopOf="@+id/buttonForgotPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:hint="@string/text_repeat_password"
+            android:inputType="textPassword"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonRegistration"
+            app:layout_constraintEnd_toEndOf="@+id/buttonRegistration"
+            app:layout_constraintStart_toStartOf="@+id/buttonRegistration"
+            app:layout_constraintTop_toTopOf="@+id/buttonRegistration"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/buttonForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_main"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/button_transparent_background"
+            android:text="@string/text_forgot_password"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/buttonRegistration"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <Button
+            android:id="@+id/buttonRegistration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_main"
+            android:layout_marginRight="@dimen/margin_main"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:background="@drawable/button_background"
+            android:text="@string/button_registration"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/textView1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:background="@color/gray"
+            android:layout_marginLeft="@dimen/margin_main"
+            android:layout_marginRight="@dimen/margin_main"
+            app:layout_constraintBottom_toBottomOf="@+id/textView1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/textView1"
+            app:layout_constraintTop_toTopOf="@+id/textView1" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:background="@color/gray"
+            android:layout_marginLeft="@dimen/margin_main"
+            android:layout_marginRight="@dimen/margin_main"
+            app:layout_constraintBottom_toBottomOf="@+id/textView1"
+            app:layout_constraintEnd_toStartOf="@+id/textView1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:text="@string/text_or"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_small"
+            app:layout_constraintBottom_toTopOf="@+id/buttonLogin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_main"
+            android:layout_marginRight="@dimen/margin_main"
+            android:layout_marginBottom="@dimen/margin_main"
+            android:background="@drawable/button_stroke_background"
+            android:text="@string/button_login"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

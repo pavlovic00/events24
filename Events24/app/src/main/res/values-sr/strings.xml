@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Events24</string>
+    <string name="login_description_text_1">Online karte za sve sto pozelis</string>
+    <string name="login_description_text_2">Whether you enjoy city breaks or extended holidays in the sun, you can always improve your travel experiences by staying in a small.</string>
+    <string name="button_login">Prijavi se</string>
+    <string name="button_registration">Registruj se</string>
+    <string name="text_or">ili</string>
+    <string name="text_forgot_password">Zaboravljena lozinka?</string>
+    <string name="text_password">Lozinka</string>
+    <string name="text_email">Email</string>
+    <string name="text_name">Ime</string>
+    <string name="text_send_to_email">Posalji na email</string>
+    <string name="text_repeat_password">Ponovi lozinku</string>
+    <string name="text_registration_success">Registracija zavrsena!</string>
+    <string name="text_registration_error">Greska u registraciji, pokusajte ponovo!</string>
+    <string name="text_check_email">Proveri email!</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_map">Map</string>
+    <string name="menu_search">Pretraga</string>
+    <string name="menu_tickets">Karte</string>
+    <string name="menu_profile">Profil</string>
+    <string name="menu_favourites">Omiljeno</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_show_more">Pogledaj sve</string>
+    <string name="text_search">Pretrazi</string>
+    <string name="text_search_count">rezultata</string>
+    <string name="text_view_language">Jezik</string>
+    <string name="text_view_notifications">Obavestenja</string>
+    <string name="text_view_settings">Podesavanja</string>
+    <string name="text_view_mail">email@gmail.com</string>
+    <string name="text_view_name_profile">Ime Prezime</string>
+    <string name="text_view_change">Srbija</string>
+    <string name="text_view_support">Pomoc</string>
+    <string name="text_view_help_centre">Pomocni centar</string>
+    <string name="text_view_terms_and_conditions">Uslovi</string>
+    <string name="text_surname">Prezime</string>
+    <string name="button_save">Sacuvaj</string>
+    <string name="edit_text_surname">Prezime</string>
+    <string name="edit_text_address">Adresa</string>
+    <string name="edit_text_phone">Broj telefona</string>
+    <string name="edit_text_email">Email</string>
+    <string name="edit_text_city">Grad</string>
+    <string name="text_success_update_profile">Uspesna promena podataka!</string>
+    <string name="log_out">Odjavi se</string>
+    <string name="text_select_picture">Izaberi sliku</string>
+    <string name="text_view_koncerti">Koncerti</string>
+    <string name="favorites">Favorites</string>
+    <string name="koncerti">Koncerti</string>
+    <string name="pozorista">Pozorista</string>
+    <string name="sport">Sport</string>
+    <string name="all">All</string>
+    <string-array name="app_languages">
+        <item>English</item>
+        <item>Serbian</item>
+    </string-array>
+</resources>

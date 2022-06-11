@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pavlovic.cubes.events24.ui.activity.registration.MainRegistrationActivity"
+    android:background="@color/purple">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/login_background"
+        android:scaleType="centerCrop"
+        android:layout_gravity="top"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:padding="@dimen/margin_main">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_description_text_1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_biggest"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_description_text_2"
+            android:textSize="@dimen/text_size_normal"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"/>
+
+        <Button android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/button_login"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/button_background"/>
+        
+        <Button android:id="@+id/buttonRegistration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_registration"
+            android:textAllCaps="false"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/gray"
+            android:background="@color/transparent"/>
+
+    </LinearLayout>
+
+</FrameLayout>

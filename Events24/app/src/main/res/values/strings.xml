@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Events24</string>
+    <string name="login_description_text_1">All online tickets on one place.</string>
+    <string name="login_description_text_2">Whether you enjoy city breaks or extended holidays in the sun, you can always improve your travel experiences by staying in a small.</string>
+    <string name="button_login">Login</string>
+    <string name="button_registration">Sign up</string>
+    <string name="text_or">or</string>
+    <string name="text_forgot_password">Forgot password?</string>
+    <string name="text_password">Password</string>
+    <string name="text_email">Email</string>
+    <string name="text_name">Name</string>
+    <string name="text_send_to_email">Send to email</string>
+    <string name="text_repeat_password">Repeat password</string>
+    <string name="text_registration_success">Registration complete!</string>
+    <string name="text_registration_error">Registration error, try again!</string>
+    <string name="text_check_email">Check your email!</string>
+    <string name="menu_map">Map</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_tickets">Tickets</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_favourites">Favourites</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_show_more">See all</string>
+    <string name="text_search">Search</string>
+    <string name="text_search_count">result</string>
+    <string name="text_view_language">Language</string>
+    <string name="text_view_notifications">Notifications</string>
+    <string name="text_view_settings">Settings</string>
+    <string name="text_view_mail">email@gmail.com</string>
+    <string name="text_view_name_profile">Name Surname</string>
+    <string name="text_view_change">Serbia</string>
+    <string name="text_view_support">Support</string>
+    <string name="text_view_help_centre">Help centre</string>
+    <string name="text_view_terms_and_conditions">Terms and Conditions</string>
+    <string name="text_surname">Surname</string>
+    <string name="button_save">Save</string>
+    <string name="edit_text_surname">Surname</string>
+    <string name="edit_text_address">Address</string>
+    <string name="edit_text_phone">Phone</string>
+    <string name="edit_text_email">Email</string>
+    <string name="edit_text_city">City</string>
+    <string name="text_success_update_profile">Success update profile!</string>
+    <string name="log_out">Log out</string>
+    <string name="text_select_picture">Select Picture</string>
+    <string name="text_view_koncerti">Concerts</string>
+    <string name="text_view_ulaznice">Ulaznice</string>
+    <string name="favorites">Favorites</string>
+    <string name="koncerti">Koncerti</string>
+    <string name="pozorista">Pozorista</string>
+    <string name="sport">Sport</string>
+    <string name="all">All</string>
+    <string-array name="app_languages">
+        <item>English</item>
+        <item>Serbian</item>
+    </string-array>
+    <string-array name="app_languages_strings">
+        <item>en</item>
+        <item>sr</item>
+    </string-array>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.pavlovic.cubes.events24.ui.fragment.SearchFragment"
+    android:background="@color/purple_dark"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="@dimen/margin_for_events"
+        app:cardCornerRadius="@dimen/card_view_corner_search">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:id="@+id/imageViewSearch"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:src="@drawable/ic_search_gray"/>
+
+            <EditText
+                android:id="@+id/editTextSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:background="@null"
+                android:hint="@string/text_search"
+                android:layout_marginLeft="8dp"
+                android:textSize="@dimen/text_size_normal"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textViewCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_for_events"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginBottom="@dimen/margin_for_events"
+        android:background="@null"
+        android:text="@string/text_search_count"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/text_size_normal" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginBottom="@dimen/margin_main"
+        android:layout_marginTop="@dimen/margin_small"
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

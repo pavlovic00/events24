@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_dark">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginTop="@dimen/margin_main"
+        android:layout_marginBottom="@dimen/margin_main"
+        android:src="@drawable/home_bottom"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvServices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:text="Usluge"
+            android:textColor="#00E0CF"
+            android:textSize="@dimen/text_size_normal"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Za organizatore \nkoncerata"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal"
+            android:layout_marginRight="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"/>
+
+        <TextView
+            android:id="@+id/tvText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Naša glavna delanost je organizacija velikih koncerata i festivala. Snadbevamo organizaciju, izvođače radova i sve tehničke potrebe za realizaciju uspešnog, spektakularnog i bezbednog koncerta."
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_small"
+            android:layout_marginRight="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"/>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
